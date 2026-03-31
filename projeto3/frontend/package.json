@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npm run build && npm run start"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
